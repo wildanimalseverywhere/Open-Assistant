@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set MODEL_CONFIG_NAME to first argument or default to distilgpt2
-export MODEL_CONFIG_NAME=${1:-distilgpt2}
+export MODEL_CONFIG_NAME=${1:-OA_SFT_Pythia_12Bq_4}
 MODEL_ID=$(python3 worker/get_model_config_prop.py model_id)
 LOGLEVEL=${LOGLEVEL:-DEBUG}
 echo "MODEL_ID: $MODEL_ID"
