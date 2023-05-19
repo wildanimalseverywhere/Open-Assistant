@@ -31,6 +31,11 @@ MODEL_CONFIGS = {
         max_input_length=512,
         max_total_length=1024,
     ),
+    "german-gpt2": ModelConfig(
+        model_id="dbmdz/german-gpt2",
+        max_input_length=512,
+        max_total_length=1024,
+    ),
     "OA_SFT_Pythia_12B": ModelConfig(
         model_id="OpenAssistant/oasst-sft-1-pythia-12b",
         max_input_length=1024,
