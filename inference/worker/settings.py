@@ -3,7 +3,7 @@ import pydantic
 
 class Settings(pydantic.BaseSettings):
     backend_url: str = "ws://localhost:8000"
-    model_config_name: str = "distilgpt2"
+    model_config_name: str = "OpenAssistant/oasst-sft-6-llama-30b-xor"
     inference_server_url: str = "http://localhost:8001"
     safety_server_url: str = "http://localhost:8002"
     api_key: str = "0000"
